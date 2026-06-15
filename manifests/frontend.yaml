@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: temperaturas-frontend
-          image: ibone93/temperaturas-frontend:v1
+          image: ibone93/temperaturas-frontend:v2
           ports:
             - containerPort: 3001
           env:
