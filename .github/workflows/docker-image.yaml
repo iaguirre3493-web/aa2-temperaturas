@@ -7,7 +7,7 @@ on:
 env:
   EKS_CLUSTER_NAME: aa2-cluster-temperaturas
   AWS_REGION: us-east-1
-  FRONTEND_IMAGE: ibone93/temperaturas-frontend:v2
+  FRONTEND_IMAGE: ibone93/temperaturas-frontend:v3
 
 jobs:
   build-and-deploy:
